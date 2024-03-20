@@ -65,7 +65,7 @@
 	 （※ QA - When a `コメント` is created, should an email be sent to the user who created the parent HH管理 record, or to the commenter?）
 -  Also send to `担当者` field of `HH管理` user when field isn't `null` 
 ![Pasted image 20240320142316.png](https://github.com/mtm-phyothihakyaw/Salesforce-Notes/blob/main/Pasted%20image%2020240320142316.png)
-![Pasted image 20240320142404.png](https://github.com/mtm-phyothihakyaw/Salesforce-Notes/blob/main/Pasted%21image%20240320142404.png)
+![Pasted image 20240320142404.png](https://github.com/mtm-phyothihakyaw/Salesforce-Notes/blob/acec85443e6a4f4fb281586db088e522a8c439f2/Pasted%20image%2020240320142404.png)
 
 # ⑬ HH_部署情報連携
 	(When record is create or update)
