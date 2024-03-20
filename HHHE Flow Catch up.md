@@ -6,7 +6,7 @@
 
 `HE判定（速報）`doesn't match `HH`
 - Set `HH内容` field to `Empty String`
-
+  
 `アクション会議開催要否` doesn't match `要`
 - Set `最終アクション会議開催日` to `Empty`
 - Set `1回目アクション会議の日程` to `Empty`
@@ -64,7 +64,8 @@
  -  When create comment in HH管理 send email to `コメント` create user 
 	 （※ QA - When a `コメント` is created, should an email be sent to the user who created the parent HH管理 record, or to the commenter?）
 -  Also send to `担当者` field of `HH管理` user when field isn't `null` 
-![[Pasted image 20240320142316.png]] ![[Pasted image 20240320142404.png]]
+![Pasted image 20240320142316.png](https://github.com/mtm-phyothihakyaw/Salesforce-Notes/blob/main/Pasted%20image%2020240320142316.png)
+![Pasted image 20240320142404.png](https://github.com/mtm-phyothihakyaw/Salesforce-Notes/blob/main/Pasted%21image%20240320142404.png)
 
 # ⑬ HH_部署情報連携
 	(When record is create or update)
