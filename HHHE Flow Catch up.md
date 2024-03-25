@@ -78,3 +78,12 @@
 	 - `会社名_格納用`
 
 # ⑭ HH「いいね!」通知メール送信
+	(Run Everyday 8:30)
+ -  Get user's like info and send mails to each record of  `担当者` field.
+
+# ⑮ HH一時保存確認メール送信フロー
+	(Run Everyday 18:00)
+ - Run when one of the below conditions match
+	-  `発生日時` field is `null`
+	- `作業内容` field is `null`
+	- `HHの具体的な内容` field is `null`
